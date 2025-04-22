@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="class_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+
+    <string-array name="class_rooms">
+        <item>Studio A</item>
+        <item>Studio B</item>
+        <item>Studio C</item>
+    </string-array>
+</resources>

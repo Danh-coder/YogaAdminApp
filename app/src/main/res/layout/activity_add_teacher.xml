@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTeacherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teacher Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp"/> <!-- Added margin -->
+
+        <EditText
+            android:id="@+id/editTeacherBasicInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teacher Basic Info"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp"/> <!-- Added margin -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Type"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            style="@style/TextAppearance.YogaAdmin.TitleMedium"
+            android:layout_marginBottom="8dp"/> <!-- Added label and margin -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutClassTypeDropdown"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Class Type"
+            android:layout_marginBottom="16dp"> <!-- Added margin -->
+
+            <AutoCompleteTextView
+                android:id="@+id/editClassTypeId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"
+                android:cursorVisible="false"
+                tools:ignore="LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnAddTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Teacher" />
+    </LinearLayout>
+</LinearLayout>

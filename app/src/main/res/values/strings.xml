@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Yoga Admin App</string>
+    <!-- ... other strings ... -->
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="search">Search</string>
+    <string name="search_by_date">Search by Date</string>
+    <string name="by_teacher">By Teacher</string>
+    <string name="by_day">By Day</string>
+    <string name="by_teacher_and_date">By Teacher and Date</string>
+    <string name="by_day_and_date">By Day and Date</string>
+    <string name="generate">Generate Class Instances</string>
+    <string name="create_class_instance">Create Class Instance</string>
+
+    <string name="class_id">Example: 1</string>
+    <string name="date">Example: 2023–09-15</string>
+    <string name="teacher_id">Example: 1</string>
+    <string name="additional_comments">Example: Additional comments...</string>
+    <string name="save">Save</string>
+
+</resources>

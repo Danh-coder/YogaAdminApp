@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDetailInstanceClassDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Description"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailInstanceDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            style="@style/TextAppearance.YogaAdmin.TitleSmall"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailInstanceTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            style="@style/TextAppearance.YogaAdmin.TitleSmall"
+            android:layout_marginBottom="8dp"/> <!-- Added Instance Time -->
+
+        <TextView
+            android:id="@+id/tvDetailInstanceTeacherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teacher Name: "
+            style="@style/TextAppearance.YogaAdmin.TitleSmall"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailInstanceComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Additional Comments: "
+            style="@style/TextAppearance.YogaAdmin.TitleSmall"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Details"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            style="@style/TextAppearance.YogaAdmin.TitleLarge"
+            android:drawableStart="@drawable/ic_class"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailClassDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailClassDaysOfWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Days of Week: "
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailClassTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Time: "
+            android:layout_marginBottom="8dp"/> <!-- Changed to Class Time -->
+
+        <TextView
+            android:id="@+id/tvDetailClassCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacity: "
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailClassDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration: "
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailClassPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: "
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailClassTypeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Type: "
+            android:layout_marginBottom="8dp"/> <!-- Changed to Class Type Name -->
+
+        <TextView
+            android:id="@+id/tvDetailClassLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level: "
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDetailClassRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room: "
+            android:layout_marginBottom="8dp"/>
+    </LinearLayout>
+</ScrollView>
