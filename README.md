@@ -46,9 +46,8 @@ Background operations, including database interactions and Firebase uploads, are
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Danh-coder/YogaAdminApp.git
     ```
-    Replace `<repository_url>` with the actual URL of your GitHub repository.
 
 2.  **Open in Android Studio:** Open the cloned project in Android Studio.
 
